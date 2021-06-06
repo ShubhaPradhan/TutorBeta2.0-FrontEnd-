@@ -457,11 +457,266 @@ footer .logo-sponsor img {
 /* END OF FOOTER */
 
 
+/* PUBLIC JOBS */
+.public-jobs {
+    padding: 0rem 8rem;
+}
+
+.public-jobs .job {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #003060;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.public-jobs .job .bord {
+    height: 100px;
+    width: 3px;
+    background: #0030608e;
+    margin-right: 1rem;
+}
+
+.public-jobs .job:hover {
+    cursor: pointer;
+}
+
+.public-jobs .job .image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.public-jobs .job .content {
+    word-break: break-all;
+}
+
+.public-jobs .job .content p {
+    margin-bottom: 0rem;
+}
+
+.public-jobs .job .content p.institution {
+    font-weight: 700;
+    margin-bottom: 0rem;
+}
+
+.public-jobs .job .content .post-contain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .public-jobs {
+        padding: 0rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #faq-header {
+        margin-top: 0rem !important;
+
+    }
+
+    .public-jobs {
+        padding: 0rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .public-jobs {
+        margin-top: 4rem;
+        padding: 0rem 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+    .public-jobs {
+        margin-top: 7rem;
+        padding: 0rem 0rem;
+    }
+
+    .public-jobs .job {
+        border: none;
+        border-top: 2px solid #003060;
+        border-bottom: 2px solid #003060;
+    }
+
+}
+
+/* END PUBLIC JOBS */
+/* JOB-DETAIL */
+.job-details {
+    text-align: start !important;
+}
+
+.job-details .institution {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.job-details .institution .image {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 3px #fff;
+}
+
+.job-details .institution .image img {
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+
+}
+
+.job-details .institution .info {
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.detailed-jobs {
+    padding: 0rem 20rem;
+}
+
+.detailed-jobs .institution-info {
+    margin-top: 2rem;
+}
+
+.detailed-jobs>.jobs {
+    margin-top: 2rem;
+}
+
+.detailed-jobs .institution-info p {
+    line-height: 1.7;
+}
+
+.detailed-jobs .jobs .row {
+    margin-top: 1.2rem;
+}
+
+.detailed-jobs .jobs .label p {
+    font-weight: 600;
+
+}
+
+.detailed-jobs .related-jobs .job {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #003060;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.related-jobs {
+    margin-top: 2rem;
+}
+
+.detailed-jobs .related-jobs .indi-jobs .job {
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+.detailed-jobs .related-jobs .job .bord {
+    height: 100px;
+    width: 3px;
+    background: #0030608e;
+    margin-right: 1rem;
+}
+
+.detailed-jobs .related-jobs .job:hover {
+    cursor: pointer;
+}
+
+.detailed-jobs .related-jobs .job .image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.detailed-jobs .related-jobs .job .content {
+    word-break: break-all;
+}
+
+.detailed-jobs .related-jobs .job .content p {
+    margin-bottom: 0rem;
+}
+
+.detailed-jobs .related-jobs .job .content p.institution {
+    font-weight: 700;
+    margin-bottom: 0rem;
+}
+
+.detailed-jobs .related-jobs .job .content .post-contain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    .detailed-jobs {
+        padding: 0rem 10rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .detailed-jobs {
+        padding: 0rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .detailed-jobs {
+        padding: 0rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .detailed-jobs {
+        padding: 0rem 5rem;
+    }
+
+    .detailed-jobs .related-jobs .job {
+        border: none;
+        border-top: 2px solid #003060;
+        border-bottom: 2px solid #003060;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .detailed-jobs {
+        padding: 0rem 1rem;
+    }
+
+    .job-details .institution .image img {
+        width: 80px;
+        height: 80px;
+        z-index: 2;
+    }
+
+    .job-details .institution {
+        padding: 0rem 2rem;
+    }
+
+    .job-details .institution .info h2 {
+        color: #fff;
+        margin-left: 0.3rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+/* END JOB DETAIL */
 /* FAQ SECTION */
-#faq-body{
+#faq-body {
     background-color: aliceblue;
 }
-#faq-header{
+
+#faq-header {
     margin-top: 6.7rem;
     height: 45vh;
     background: #003060;
@@ -471,18 +726,22 @@ footer .logo-sponsor img {
     flex-direction: column;
     text-align: center;
 }
+
 #faq-header .title {
     font-size: 40px;
     color: #f4f4f4;
 }
-#faq-header .description{
+
+#faq-header .description {
     font-size: 22px;
     color: #f4f4f4;
 }
-#faq-content{
+
+#faq-content {
     margin: 3.5rem 1rem 0;
 }
-#faq-content .card-header{
+
+#faq-content .card-header {
     border-radius: 10px;
     background-color: #fff;
     border-bottom: 0;
@@ -493,18 +752,22 @@ footer .logo-sponsor img {
     padding-top: 16px;
     padding-bottom: 8px;
 }
+
 #faq-content .faq-text {
-    padding: 0px 16px ;
+    padding: 0px 16px;
 }
+
 #faq-content .faq-title {
     color: #003060;
     font-size: 18px;
     font-weight: 600;
 }
+
 #faq-content .arrow-icon {
     font-size: 20px;
     color: #003060;
 }
+
 #faq-content .faq-form {
     background: #fff;
     padding: 18px 32px;
@@ -520,25 +783,30 @@ footer .logo-sponsor img {
         margin-top: -135px;
     }
 }
+
 #faq-content .faq-form input,
 #faq-content .faq-form textarea {
     border: none;
     border-bottom: 2px solid #6c757d;
     width: 100%;
 }
+
 #faq-content .faq-form textarea {
     max-height: 200px;
 }
+
 #faq-content .faq-form textarea:focus,
 #faq-content .faq-form input:focus {
     box-shadow: 0;
     outline: 0;
 }
+
 #faq-content .input-field {
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
 }
+
 #faq-content .faq-form .form-title {
     font-size: 24px;
     font-weight: 700;
@@ -546,6 +814,7 @@ footer .logo-sponsor img {
     text-align: center;
     margin-bottom: 18px;
 }
+
 #faq-content button.submit {
     background: #003060;
     color: #fff;
