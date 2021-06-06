@@ -510,11 +510,15 @@ footer .logo-sponsor img {
     padding: 18px 32px;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin-top: -130px;
     box-shadow: 8px 8px 20px 0px rgb(52 58 64 / 20%);
     height: max-content;
     border-radius: 14px;
+    width: 80%;
+}
+@media only screen and (min-width:992px) {
+    #faq-content .faq-form {
+        margin-top: -135px;
+    }
 }
 #faq-content .faq-form input,
 #faq-content .faq-form textarea {
