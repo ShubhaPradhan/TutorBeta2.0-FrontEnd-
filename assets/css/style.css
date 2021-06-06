@@ -786,6 +786,7 @@ footer .logo-sponsor img {
     border-radius: 14px;
     width: 80%;
 }
+
 @media only screen and (min-width:992px) {
     #faq-content .faq-form {
         margin-top: -135px;
@@ -843,6 +844,10 @@ footer .logo-sponsor img {
     color: #003060;
 }
 
+.contacts-page .para-1 {
+    color: #003060;
+}
+
 .contacts-page .contact-info {
     margin-top: 2rem;
 
@@ -858,7 +863,7 @@ footer .logo-sponsor img {
 }
 
 .contacts-page .contact-info .info li p {
-    color: #858383;
+    color: #003060
 }
 
 .contacts-page .contact-info .info li p i {
@@ -867,7 +872,7 @@ footer .logo-sponsor img {
 
 .contacts-page .contact-info .info li .title {
     font-weight: 900;
-    color: #000;
+    color: #003060;
 }
 
 .contacts-page .contact-info .info li .phone {
