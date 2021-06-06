@@ -709,6 +709,14 @@ footer .logo-sponsor img {
     }
 }
 
+@media only screen and (max-width: 330px) {
+    .job-details .institution .image img {
+        width: 70px;
+        height: 70px;
+        z-index: 2;
+    }
+}
+
 
 /* END JOB DETAIL */
 /* FAQ SECTION */
@@ -819,3 +827,109 @@ footer .logo-sponsor img {
     border-radius: 4px;
     padding: 8px 12px;
 }
+
+/* CONTACT PAGE */
+
+
+.contacts-page .info {
+    margin-top: 0rem !important;
+}
+
+.contacts-page .headings-1 {
+    color: #003060;
+}
+
+.contacts-page .contact-info {
+    margin-top: 2rem;
+
+}
+
+.contacts-page .contact-info .info {
+    margin-top: 3rem;
+}
+
+.contacts-page .contact-info .info li {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.contacts-page .contact-info .info li p {
+    color: #858383;
+}
+
+.contacts-page .contact-info .info li p i {
+    color: #003060
+}
+
+.contacts-page .contact-info .info li .title {
+    font-weight: 900;
+    color: #000;
+}
+
+.contacts-page .contact-info .info li .phone {
+    color: #003060;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contacts-page .message {
+    margin-top: 2rem;
+}
+
+
+
+.contacts-page .message form input,
+.contacts-page .message form textarea {
+    background: #ffff;
+    padding: 1.5rem 2rem;
+    font-weight: 600;
+    border: 2px solid #ced4da;
+    border-radius: 0;
+    cursor: auto !important;
+    color: #003060;
+}
+
+.contacts-page .message form input:hover,
+.contacts-page .message form textarea:hover {
+    background: #ffffff;
+    cursor: pointer !important;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #003060;
+}
+
+.contacts-page .message form input:active,
+.contacts-page .message form textarea:active,
+.contacts-page .message form input:focus,
+.contacts-page .message form textarea:focus {
+    border: 2px solid #003060;
+}
+
+.contacts-page form button {
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-align: start;
+    background: #003060;
+    color: #ffff;
+}
+
+.contacts-page form button:hover {
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .contacts-page .info li p.par {
+        margin-left: 1.8rem;
+    }
+
+    .contacts-page .info li p.phone {
+        margin-left: 1.8rem;
+    }
+
+    .contacts-page .contact-info {
+        text-align: start;
+    }
+}
+
+/* END CONTACT PAGE */
