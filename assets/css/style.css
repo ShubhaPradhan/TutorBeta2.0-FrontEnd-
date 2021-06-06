@@ -1,0 +1,457 @@
+/***********NAVBAR***************/
+/*------ NAVBAR BEFORE SCROLLING -------*/
+.navbar-section .navbar {
+    background-color: #003060;
+    transition: all ease 0.8s;
+    padding-right: 0 !important;
+}
+
+.navbar-section #logoImage {
+    transition: width 0.8s, height 0.8s;
+    margin-left: 35px;
+}
+
+.navbar-section #topbar {
+    height: 45px;
+}
+
+.animate {
+    transition: all ease 0.8s;
+}
+
+.animate .navbar-brand img {
+    transform: scale(0.5);
+}
+
+header {
+    position: absolute;
+    z-index: 1000;
+}
+
+@keyframes slide {
+    from {
+        height: 45px;
+    }
+
+    to {
+        height: 0px;
+    }
+}
+
+
+/* PROFILEPIC DROPDOWN RESPONSIVNESS */
+.navbar-section .navbar .navbardropdowns img {
+    height: 35px;
+    width: 35px;
+    border-radius: 25%;
+}
+
+.navbar-section .navbar .navbardropdowns {
+    position: relative;
+}
+
+.navbar-section .navbar .navbardropdowns .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 5px;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.navbar-section .navbar .navbardropdowns .dropdown-content .dropdown-item:hover {
+    background: #edae49;
+    color: #ffffff;
+}
+
+.navbar-section .navbar .navbardropdowns:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-section .navbar .navbardropdowns img:hover {
+    cursor: pointer;
+}
+
+.navbar-section .navbar #logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* PROFILEPIC DROPDOWN RESPONSIVNESS */
+.navbar-section .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #ddd8b8;
+}
+
+.navbar-section .navbar-brand:hover {
+    color: #ddd8b8;
+}
+
+/* CHANGES */
+.navbar-section .navbar-toggler span {
+    color: #ddd8b8;
+}
+
+.navbar-section .navbar-nav a span {
+    color: #edae49;
+}
+
+.navbar-section .navbar-nav {
+    margin-right: 3.7rem;
+}
+
+.navbar-section .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.navbar-section .navbar-nav .nav-item.profilePicDropdown img {
+    height: 35px;
+    width: 35px;
+    border-radius: 25%;
+}
+
+.navbar-section .navbar-nav .nav-item.profilePicDropdown .dropdowns {
+    position: relative;
+}
+
+.navbar-section .navbar-nav .nav-item.profilePicDropdown {
+    margin-top: -4px;
+}
+
+.navbar-section .navbar-nav .nav-item.profilePicDropdown .dropdowns .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    margin-left: -65px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.navbar-section .navbar-nav .nav-item.profilePicDropdown .dropdowns .dropdown-content .dropdown-item:hover {
+    background: #edae49;
+    color: #ffffff;
+}
+
+.navbar-section .navbar-nav .nav-item.profilePicDropdown .dropdowns:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-section .navbar-nav .nav-item.profilePicDropdown img:hover {
+    cursor: pointer;
+}
+
+.navbar-section .hover::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #edae49;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.navbar-section .hover:hover::after {
+    width: 100%;
+    display: block;
+    opacity: 1;
+}
+
+/* changes */
+.navbar-section .input-1 {
+    border: 0;
+    height: 42.5px;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.navbar-section .form .fa {
+    box-sizing: border-box;
+    padding: 7px 0px 0px 0px;
+    width: 34.5px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #ddd8b8;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 0.5s;
+}
+
+.navbar-section .nav-item .searchBar {
+    position: relative;
+    padding: 15px 24px 15px 10px;
+    width: 0px;
+    height: 37.5px;
+    font-size: 16px;
+    margin-top: 0.2rem;
+    letter-spacing: 2px;
+    border: 5px solid #edae49;
+    border-radius: 25px;
+    transition: width 0.6s ease;
+    outline: none;
+}
+
+.navbar-section .nav-item .searchBar:focus,
+.navbar-section .nav-item .searchBar:hover {
+    width: 190px;
+}
+
+.navbar-section .nav-item #search-icon {
+    position: relative;
+    left: -34px;
+    bottom: 1px;
+    color: #070052;
+}
+
+.navbar-section .nav-item #search-icon:hover {
+    cursor: pointer;
+}
+
+.navbar-section .form-1 {
+    display: none;
+}
+
+.navbar-section .input-1 {
+    border: 0;
+    height: 42.5px;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+/* CHANGES */
+/* *******END OF NAVBAR BEFORE SCROLLING********* */
+
+/*  END OF NAVBAR */
+
+/*------------------------- MEDIA QUERIES -------------------------*/
+
+/* START OF MEDIA QUERIES TO MAKE THE NAVBAR RESPONSIVE */
+@media only screen and (max-width: 991px) {
+
+    /* .main_div{
+  margin-bottom: 54.4vh;
+} */
+    /* THIS IS FOR THE NAVBAR*/
+    .navbar-section #topbar {
+        display: none;
+    }
+
+    .navbar-section .navbar-nav {
+        margin-right: 5.9rem;
+    }
+
+    .navbar-section .form-2 {
+        display: none;
+    }
+
+    .navbar-section .form-1 {
+        display: block;
+    }
+
+    .navbar-section .form .fa {
+        color: #0b0a07 !important;
+        padding-top: 1rem;
+    }
+
+    .navbar-section .navbar form {
+        position: relative;
+        transition: all 0s;
+        height: max-content;
+        background: transparent;
+        border-radius: 15px;
+        border: 1px solid #edae49;
+        padding: 2.6px;
+        background-color: #edae49;
+    }
+
+    .navbar-section .navbar form:focus {
+        cursor: pointer;
+    }
+
+    .navbar-section .navbar form:focus input {
+        display: block;
+        border: 0;
+    }
+
+    .navbar-section .navbar form:focus .fa {
+        background: #07051a;
+        color: transparent;
+    }
+
+    .navbar-section .hover:hover::after {
+        opacity: 0;
+    }
+}
+
+/*  END OF MAKING NAVBAR RESPONSIVE */
+
+/*  END OF NAVBAR */
+/*============= FOOTER =============*/
+
+footer {
+    width: 100%;
+    background: #003060;
+    padding: 1.5rem;
+    margin-top: 1%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e0d4c1;
+}
+
+footer ul.social {
+    list-style: none;
+    display: flex;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer ul.social li {
+    margin: 0 auto;
+}
+
+/*=============END FOOTER =============*/
+
+/*======FOOTER========*/
+.footer {
+    background: #003060;
+    color: #ffffff;
+}
+
+.footer .row>div {
+    margin-bottom: 2.5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer .row>div ul p,
+.footer .row>div>p {
+    font-weight: 700;
+}
+
+.footer li {
+    margin-bottom: 1rem;
+}
+
+.social-icons-footer {
+    text-align: center;
+}
+
+.social-icons-footer a span {
+    font-size: 1.7rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.social-icons-footer a span:hover {
+    color: #070052;
+    transform: translate(0, -10px);
+}
+
+/* CSS OF DYNAMIC COLOR CONTROLS */
+footer {
+    position: relative;
+}
+
+footer .colorChanging {
+    height: 6vh;
+}
+
+footer .settingDiv {
+    width: 20px;
+}
+
+footer #colorDiv {
+    background: #ffffff;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    text-align: center;
+}
+
+.normal {
+    width: 7px;
+    transition-duration: 0.4s;
+}
+
+.grow {
+    width: 140px;
+    transition-duration: 0.4s;
+}
+
+footer .colors {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+    animation: fadeIn 0.4s ease-out;
+    cursor: pointer;
+    margin: 0.2rem 0rem;
+}
+
+footer #green {
+    background: #18363a;
+}
+
+footer #blue {
+    background: #070052;
+}
+
+footer #yellow {
+    background: #14248A;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fa-spin-reverse {
+    animation: fa-spin-reverse 0.4s infinite linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fa-spin-reverse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(-359deg);
+    }
+}
+
+/* END OF DYNAMIC COLOR CONTROLS */
+
+/* Clearfix (clear floats) */
+
+footer .logo-sponsor {
+    display: inline-block;
+}
+
+footer .logo-sponsor img {
+    width: 150px;
+}
+
+/* END OF FOOTER */
